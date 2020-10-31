@@ -34,6 +34,8 @@ namespace TailSpin.SpaceGame.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
+
             // Add document stores. These are passed to the HomeController constructor.
             services.AddSingleton<IDocumentDBRepository<Score>>(new LocalDocumentDBRepository<Score>(@"SampleData/scores.json"));
             services.AddSingleton<IDocumentDBRepository<Profile>>(new LocalDocumentDBRepository<Profile>(@"SampleData/profiles.json"));
