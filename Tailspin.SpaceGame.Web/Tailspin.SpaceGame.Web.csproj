@@ -36,4 +36,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tailspin.SpaceGame.Web.Models\Tailspin.SpaceGame.Web.Models.csproj" />
+  </ItemGroup>
 </Project>
