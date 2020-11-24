@@ -1,5 +1,16 @@
 [![Build Status](https://dev.azure.com/Tailspin8595/Space%20Game%20-%20web%20-%20Tests/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=code-coverage)](https://dev.azure.com/Tailspin8595/Space%20Game%20-%20web%20-%20Tests/_build/latest?definitionId=4&branchName=code-coverage)
 
+Build applications with Azure DevOps
+https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/
+
+Base: Run quality tests in your build pipeline by using Azure Pipelines
+https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/
+
+Added: Scan open source components for vulnerabilities and license ratings in Azure Pipelines
+https://docs.microsoft.com/en-us/learn/modules/scan-open-source/
+
+
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
